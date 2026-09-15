@@ -1,0 +1,4 @@
+# Keeps native methods intact for smbd interactions
+-keepclasseswithmembernames class * {
+    native <methods>;
+}

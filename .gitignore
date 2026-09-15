@@ -1,0 +1,12 @@
+# Gradle & Android build output
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Note: app/src/main/assets/bin/smbd is intentionally NOT ignored so it commits to git
